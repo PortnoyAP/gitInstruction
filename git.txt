@@ -22,8 +22,21 @@ Create git repository with Android studio
 1. create new project in Android studio -> VCS -> Import into Version Control 
 -> Create Git Repository -> Select directory of project (Folder) ->Open.
 
+2.Project -> project-> select folderName(path project)  -> right click -> Git -> Add (CTRL+ALT+A) .
 
+3.VCS -> Commit -> write commit message.
 
+4. on bottom of console select Git -> Log.(see all commits)
+
+5. Create  global repository on gitHub. (https path of project https://github.com/PortnoyAP/projectName.git )
+
+6.VCS -> Commit -> push ->define remote-> insert url https://github.com/PortnoyAP/projectName.git
+
+7. VSC -> Git -> add
+8. VSC -> Git -> commit
+8. VSC -> Git -> push
+
+9. VSC -> Git -> pull 
 
 
 
@@ -36,9 +49,9 @@ Create git repository on computer
 
 2.-> "git init " ( git repository created).
 
-3 .Create  global repository on gitHub. (https path of project https://github.com/PortnoyAP/gitInstruction.git )
+3 .Create  global repository on gitHub. (https path of project https://github.com/PortnoyAP/projectName.git )
 
-4. -> in bush command -> " git remote add origin https://github.com/PortnoyAP/gitInstruction.git "
+4. -> in bush command -> " git remote add origin https://github.com/PortnoyAP/projectName.git "
 
 5. -> " git branch -u origin master "
 
