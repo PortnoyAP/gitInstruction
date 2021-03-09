@@ -45,17 +45,6 @@ Create git repository on computer
 6. -> "git push _u origin master"
 
 
-
-*.  "git add ."  (add all to version control of git)
-*.  "git commit -am"files added"."  (crate commit to last changes on files)
-
-*. "git push " (push last changes of project to global repository)
-
-*. "git pull"  (pull last version from global rep to local repository)
-
-*. "git branch " ( check  actual branch)
-*. "git branch -v" ( last commit in all branches)
-
 Clone project from global repository
 
 1. cretae folder / directory fr project.
@@ -70,6 +59,16 @@ Clone project from global repository
 
  
 
+
+*.  "git add ."  (add all to version control of git)
+*.  "git commit -am"files added"."  (crate commit to last changes on files)
+
+*. "git push " (push last changes of project to global repository)
+
+*. "git pull"  (pull last version from global rep to local repository)
+
+*. "git branch " ( check  actual branch)
+*. "git branch -v" ( last commit in all branches)
 
 
 
