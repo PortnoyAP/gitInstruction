@@ -1,13 +1,89 @@
 
 *GIT*
 
-CVS- Control Version System.
+CVS / VCS - Control Version System.
 
 git-local repository.
 
 github.com - global repositoy. 
 
 
+
+
 1. download git ( https://git-scm.com/downloads ).
 
-2.
+2. install.
+
+
+
+
+Create git repository with Android studio
+
+1. create new project in Android studio -> VCS -> Import into Version Control 
+-> Create Git Repository -> Select directory of project (Folder) ->Open.
+
+
+
+
+
+
+
+
+
+Create git repository on computer 
+
+1.in Folder with project -> "Git Bash Here".
+
+2.-> "git init " ( git repository created).
+
+3 .Create  global repository on gitHub. (https path of project https://github.com/PortnoyAP/gitInstruction.git )
+
+4. -> in bush command -> " git remote add origin https://github.com/PortnoyAP/gitInstruction.git "
+
+5. -> " git branch -u origin master "
+
+6. -> "git push _u origin master"
+
+
+
+*.  "git add ."  (add all to version control of git)
+*.  "git commit -am"files added"."  (crate commit to last changes on files)
+
+*. "git push " (push last changes of project to global repository)
+
+*. "git pull"  (pull last version from global rep to local repository)
+
+*. "git branch " ( check  actual branch)
+*. "git branch -v" ( last commit in all branches)
+
+Clone project from global repository
+
+1. cretae folder / directory fr project.
+2.copy https path from global repository.
+3. in folder "git bush here ".
+4. "git clone https://github.com/PortnoyAP/gitInstruction.git "
+
+5.for change version of project in git bush -> "gitk ==all&"
+6. in intrface of git select commit  copy SHA1 ID :    (CTRL+INSERT)
+7. paste in git bush command "git checkout (SHIFT+INSERT)"
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
