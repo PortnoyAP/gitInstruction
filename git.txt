@@ -38,6 +38,11 @@ Create git repository with Android studio
 
 9. VSC -> Git -> pull 
 
+Clone project from global repository on computer with Android Studio
+
+1.check out project from version control -> Git
+2.insert url of project  https://github.com/PortnoyAP/projectName.git
+
 
 
 
@@ -86,7 +91,9 @@ Clone project from global repository
 
 
 
-
+ReCreate new origin 
+1.git remote rm origin
+2.git remote add origin https://github.com/PortnoyAP/projectName.git
 
 
 
